@@ -42,10 +42,10 @@ text-decoration: none;
   
   /* Change the link color to #111 (black) on hover */
 div#navbar li a:hover {
-background-color: #111;
+background-color: rgba(15, 106, 167, 0.4);
 }
 
 div#navbar .active {
-background-color: #8c0707;
+background-color: rgba(120,180,220,.4);
 }
 
