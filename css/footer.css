@@ -1,0 +1,30 @@
+div#footer {
+    z-index: 1;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+  }
+
+div#footer .footer-left{
+    padding-left: 100px;
+    float: left;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div#footer .footer-left > a{
+    color: azure;
+}
+
+div#footer .footer-right{
+    padding-right: 100px;
+    float: right;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
