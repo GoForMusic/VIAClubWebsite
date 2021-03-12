@@ -5,7 +5,7 @@ div#footer {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #a7a4a4;
+    background-color: #333;
     left: 0;
     width: 100%;
     bottom: 0;
@@ -14,20 +14,20 @@ div#footer {
 div#footer .footer-left{
     padding-left: 100px;
     float: left;
-    font-weight: bold
-    color: black;
+    font-weight: bold;
+    color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 div#footer .footer-left > a{
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
 div#footer .footer-right{
     padding-right: 100px;
     float: right;
     font-weight: bold;
-    color: black;
+    color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

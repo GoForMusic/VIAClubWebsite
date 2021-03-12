@@ -5,7 +5,7 @@ div#navbar ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #a7a4a4;
+  background-color: #333;
   top: 0;
   left: 0;
   position: fixed;
@@ -35,7 +35,7 @@ float: left;
 div#navbar li a {
 display: block;
 font-weight: bold;
-color: rgb(0, 0, 0);
+color: white;
 text-align: center;
 padding: 20px 50px;
 text-decoration: none;
