@@ -5,7 +5,7 @@
   body {
     font-family: Arial;
     padding: 10px;
-    background: #f1f1f1;
+    background: #d7d7d7;
   }
 
 .center-left{
@@ -15,7 +15,7 @@
 }
 
 .card {
-    background-color: white;
+    background-color: azure;
     padding: 20px;
     margin-top: 110px;
   }
