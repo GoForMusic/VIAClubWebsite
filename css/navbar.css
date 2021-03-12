@@ -1,5 +1,5 @@
 div#navbar ul {
-  z-index: 1;
+  z-index: ;
   position: fixed;
   list-style-type: none;
   margin: 0;
@@ -46,6 +46,6 @@ background-color: #111;
 }
 
 div#navbar .active {
-background-color: #ff0000;
+background-color: #8c0707;
 }
 
