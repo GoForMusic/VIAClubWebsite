@@ -1,11 +1,11 @@
 div#navbar ul {
-  z-index: ;
+  z-index: 0;
   position: fixed;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #a7a4a4;
   top: 0;
   left: 0;
   position: fixed;
@@ -34,7 +34,8 @@ float: left;
   
 div#navbar li a {
 display: block;
-color: rgb(255, 255, 255);
+font-weight: bold;
+color: rgb(0, 0, 0);
 text-align: center;
 padding: 20px 50px;
 text-decoration: none;
