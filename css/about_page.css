@@ -6,16 +6,17 @@
     font-family: Arial;
     padding: 10px;
     background: #d7d7d7;
+    padding-bottom: 80px;
   }
 
 .center-left{
-    float: left;
-    width: 100%;
-    padding-left: 20px;
+    float: center;
+    width: 75%;
+    padding-left: 400px;
 }
 
 .card {
-    background-color: azure;
+    background-color: #f0ffff;
     padding: 20px;
     margin-top: 110px;
   }
@@ -35,9 +36,4 @@
 .content-img > #image_news_right{
     width: 250px;
     height: 250px;
-}
-
-.content-img > #image_news_left{
-    width: 500px;
-    height: 500px;
 }
