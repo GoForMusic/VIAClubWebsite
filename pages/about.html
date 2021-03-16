@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="../images/favicon/dino.svg" type="image/icon type">
+    <link rel="icon" href="../images/favicon/dino.svg" type="image/icontype">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -50,36 +50,33 @@
                     there were other athletic groups as well but 57 years ago they were shut down.
                     Today its managed by Bob Oldenuff who manages the teams. </p>
             </div>
+            <h2>Contact Form</h2>
 
-            <body>
+            <div class="container">
+                <form action="mailto:308842@via.dk">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Ex. John">
 
-                <h2>Contact Form</h2>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Ex. Smith">
 
-                <div class="container">
-                    <form action="mailto:308842@via.dk">
-                        <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Ex. John">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="Denmark">Denmark</option>
+                        <option value="Canada">Canada</option>
+                        <option value="USA">USA</option>
+                        <option value="Romanien">Romanien</option>
+                        <option value="Sweden">Sweden</option>
+                        <option value="Spain">Spain</option>
+                    </select>
 
-                        <label for="lname">Last Name</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Ex. Smith">
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Ex. Hello, i would like to know more about.."
+                        style="height:200px"></textarea>
 
-                        <label for="country">Country</label>
-                        <select id="country" name="country">
-                            <option value="Denmark">Denmark</option>
-                            <option value="Canada">Canada</option>
-                            <option value="USA">USA</option>
-                            <option value="Romanien">Romanien</option>
-                            <option value="Sweden">Sweden</option>
-                            <option value="Spain">Spain</option>
-                        </select>
-
-                        <label for="subject">Subject</label>
-                        <textarea id="subject" name="subject" placeholder="Ex. Hello, i would like to know more about.."
-                            style="height:200px"></textarea>
-
-                        <input type="submit" value="Submit">
-                    </form>
-                </div>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
 
 
         </div>
@@ -90,9 +87,7 @@
             <p class="footer-left"><a href="#instagram">Instagram</a></p>
             <p class="footer-right">Copyright &copy; VIA Club</p>
         </div>
-
-</body>
-
+    </div>
 </body>
 
 </html>

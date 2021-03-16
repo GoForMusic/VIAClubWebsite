@@ -28,6 +28,8 @@ body {
     position:relative;
     top: 150px;
     left: 50px;
+    width:140px;
+     height:102px;
   }
 
   table {
