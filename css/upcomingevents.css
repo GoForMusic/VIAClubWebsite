@@ -1,5 +1,7 @@
 /*Copyright by Gabriel*/
 
+
+
 body {
     font-family: Arial;
     padding: 10px;
@@ -19,10 +21,7 @@ body {
     margin-top: 10px;
   }
 
-  p {
-    position: relative;
-    left: 510px;
-  }
+  
  
   .images{
     float: right;  
