@@ -19,7 +19,55 @@ body {
     margin-top: 10px;
   }
 
+  p {
+    position: relative;
+    left: 510px;
+  }
+ 
   .images{
     float: right;  
-    
+    position:relative;
+    top: 150px;
+    left: 50px;
   }
+
+  table {
+    border-spacing: 0px
+  }
+
+  th, td {
+    padding: 20px 150px 20px 150px;
+    border-spacing: 0px;
+    margin: 0px;
+  }
+
+  th, td {
+    text-align: left;
+    background-color:aquamarine;
+    border-top:1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  tr.head th {
+    background-color: black;
+    color: white;  
+  }
+
+  tr.head th:first-child{
+    -webkit-border-top-left-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    border-top-left-radius: 15px;
+  }
+
+  tr.head th:last-child{
+    -webkit-border-top-right-radius: 15px;
+    -moz-border-radius-topright: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  tr.even th{
+    background-color:rgb(35, 180, 180);
+  }
+
+
+
