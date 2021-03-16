@@ -33,14 +33,80 @@
         <div class="center-left">
             <!--NEWS CARD-->
             <div class="card">
-                <h2>TITLE HEADING</h2>
-                <h5>Title description, Sep 2, 2017</h5>
+                <h2>About</h2>
+                <h5>VellCity Indoor Athletics Club, Marts 16, 2021</h5>
                 <div class="content-img"><img id="image_news_left" src="images/news/news2_img.png" alt="news1"></div>
-                <p>Some text.2.</p>
-                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                    nostrud exercitation ullamco.</p>
+                <h3>The History of VellCity Indoor Athletics Club</h3>
+                <p>The VellCity Indoor athletics club also known 
+                    as VIAClub was founded almost hundred yers ago by the famous 
+                    legendary Robert Sixpack. Even though our name says athletics 
+                    we do only have an indoor football team. When the club was</p>
             </div>
+            <head>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <style>
+                body {font-family: Arial, Helvetica, sans-serif;}
+                * {box-sizing: border-box;}
+                
+                input[type=text], select, textarea {
+                  width: 100%;
+                  padding: 12px;
+                  border: 1px solid rgb(222, 245, 255);
+                  border-radius: 4px;
+                  box-sizing: border-box;
+                  margin-top: 6px;
+                  margin-bottom: 16px;
+                  resize: vertical;
+                }
+                
+                input[type=submit] {
+                  background-color: #5bb2cc;
+                  color: white;
+                  padding: 12px 20px;
+                  border: none;
+                  border-radius: 4px;
+                  cursor: pointer;
+                }
+                
+                input[type=submit]:hover {
+                  background-color: #0f5ceb;
+                }
+                
+                .container {
+                  border-radius: 5px;
+                  background-color: #f0ffff;
+                  padding: 20px;
+                }
+                </style>
+                </head>
+                <body>
+                
+                <h2>Contact Form</h2>
+                
+                <div class="container">
+                  <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Ex. John">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Ex. Smith">
+                
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                      <option value="Denmark">Denmark</option>
+                      <option value="Canada">Canada</option>
+                      <option value="USA">USA</option>
+                      <option value="Romanien">Romanien</option>
+                      <option value="Sweden">Sweden</option>
+                      <option value="Spain">Spain</option>
+                    </select>
+                
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Ex. Hello, i would like to know more about.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                  </form>
+                </div>
 
 
         </div>
@@ -51,6 +117,8 @@
             <p class="footer-left"><a href="#instagram">Instagram</a></p>
             <p class="footer-right">Copyright &copy; VIA Club</p>
         </div>
+            
+            </body>
 
 </body>
 
