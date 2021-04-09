@@ -1,36 +1,16 @@
 /*Copyright by Adrian Militaru*/
 
-div#footer {
-    z-index: 1;
-    position: fixed;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #343a40
-    ;
-    left: 0;
-    width: 100%;
-    bottom: 0;
-  }
 
-div#footer .footer-left{
-    padding-left: 100px;
-    float: left;
-    font-weight: bold;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+div#footer.container-fluid{
+    left: 145px;
+  width: 100%;
 }
 
-div#footer .footer-left > a{
-    font-weight: bold;
-    color: white;
+.text-color-aqua{
+    color: rgb(120, 180, 220);
 }
 
-div#footer .footer-right{
-    padding-right: 100px;
-    float: right;
-    font-weight: bold;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+.bg-gradient {
+    background-image: linear-gradient(to top, #12123a, #151546, #181853, #1b1b5f, #1e1e6c);
 }
