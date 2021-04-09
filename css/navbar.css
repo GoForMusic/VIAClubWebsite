@@ -1,11 +1,23 @@
 /*Copyright by Adrian Militaru*/
 
-
-
+nav#navbar ul {
+  z-index: 0;
+  position: fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #343a40;
+  top: 0;
+  left: 145px;
+  width: 100%;
+  }
+  
 .NAVlogo {
 position: fixed;
 background-color: #343a40;
-z-index: 0;
+float: left;
+z-index: 1;
 display: inline-block;
 text-align: center;
 padding-top: 5px;
@@ -21,14 +33,24 @@ overflow: auto;
 }
 
 
+nav#navbar li {
+float: left;
+}
   
-
-  /* Change the link color to #111 (black) on hover */
-li#navbar > a:hover {
+nav#navbar li a {
+display: block;
+font-weight: bold;
+color: white;
+text-align: center;
+padding: 20px 50px;
+text-decoration: none;
+}
+  
+nav#navbar li a:hover {
 background-color: rgba(15, 106, 167, 0.4);
 }
 
-li#navbar .active {
+nav#navbar .active {
 background-color: rgba(120,180,220,.4);
 }
 
