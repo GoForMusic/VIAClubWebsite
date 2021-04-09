@@ -1,3 +1,4 @@
+/*Copyright by Freja Hansen*/
 * {
     box-sizing: border-box;
   }
@@ -11,8 +12,8 @@
 
 .center-left{
     float: center;
-    width: 75%;
-    padding-left: 400px;
+    width: 100%;
+    padding: 100px;
 }
 
 .card {
