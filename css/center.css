@@ -14,13 +14,13 @@ body {
 }
 
 
-@media screen and (max-width:400px){
+@media screen and (max-width:550px){
     .container-fluid{
-        padding-top: 20%;
+        padding-top: 30%;
     }
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) and (min-width: 550px){
     .container-fluid{
         padding-top: 10%;
     }
