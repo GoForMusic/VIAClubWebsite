@@ -1,5 +1,32 @@
 /*Copyright by Adrian Militaru*/
 
+
+@media screen and (max-width:990px){
+  nav#navbar ul {
+      top: 50px;
+      
+  }
+}
+
+
+@media screen and (min-width: 990px){
+  nav#navbar ul {
+    top: 0px;
+    width: 100%;
+  }
+}
+
+
+
+nav#navbar li a {
+  display: block;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 20px 50px;
+  text-decoration: none;
+  }
+
 nav#navbar ul {
   z-index: 0;
   position: fixed;
@@ -8,9 +35,7 @@ nav#navbar ul {
   padding: 0;
   overflow: hidden;
   background-color: #343a40;
-  top: 0;
   left: 145px;
-  width: 100%;
   }
   
 .NAVlogo {
@@ -37,14 +62,6 @@ nav#navbar li {
 float: left;
 }
   
-nav#navbar li a {
-display: block;
-font-weight: bold;
-color: white;
-text-align: center;
-padding: 20px 50px;
-text-decoration: none;
-}
   
 nav#navbar li a:hover {
 background-color: rgba(15, 106, 167, 0.4);
