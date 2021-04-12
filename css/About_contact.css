@@ -31,8 +31,6 @@ input[type=submit]:hover {
   background-color: #0f5ceb;
 }
 
-.container {
-  border-radius: 5px;
+.form {
   background-color: #f0ffff;
-  padding: 20px;
 }
