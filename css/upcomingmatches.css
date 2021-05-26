@@ -45,7 +45,7 @@
     border-top-right-radius: 15px;
   }
 
-  tr.even th{
+  tr:nth-child(even){
     background-color:rgba(120,180,220,.4);
   }
 
