@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+  <Model.Match>
+    <team1>VIAClub</team1>
+    <team2>Barcelona</team2>
+    <type>Friendly</type>
+    <score>6 - 5</score>
+    <listOfPlayers>
+      <Model.Player>
+        <firstName>Adrian</firstName>
+        <lastName>Pompierescu</lastName>
+        <playerNumber>2</playerNumber>
+        <preferredPosition>Gate</preferredPosition>
+        <status>Available</status>
+      </Model.Player>
+      <Model.Player>
+        <firstName>Freja</firstName>
+        <lastName>Hansen</lastName>
+        <playerNumber>55</playerNumber>
+        <preferredPosition>GoalKeeper</preferredPosition>
+        <status>Suspended</status>
+      </Model.Player>
+      <Model.Player>
+        <firstName>Grabiel</firstName>
+        <lastName>Muntinho</lastName>
+        <playerNumber>45</playerNumber>
+        <preferredPosition>LeftWing</preferredPosition>
+        <status>Available</status>
+      </Model.Player>
+    </listOfPlayers>
+    <date>
+      <day>24</day>
+      <month>5</month>
+      <year>2021</year>
+    </date>
+    <location>
+      <country>Denmark</country>
+      <city>Horsens</city>
+      <stadium>Horsens casa arena</stadium>
+    </location>
+  </Model.Match>
+  <Model.Match>
+    <team1>Barcelona</team1>
+    <team2>VIAClub</team2>
+    <type>Friendly</type>
+    <score>6 - 12</score>
+    <listOfPlayers/>
+    <date>
+      <day>25</day>
+      <month>5</month>
+      <year>2021</year>
+    </date>
+    <location>
+      <country>Spain</country>
+      <city>Barcelona</city>
+      <stadium>Camp Nou</stadium>
+    </location>
+  </Model.Match>
+  <Model.Match>
+    <team1>test</team1>
+    <team2>test</team2>
+    <type>Cup</type>
+    <score>999 - 999</score>
+    <listOfPlayers>
+      <Model.Player>
+        <firstName>Grabiel</firstName>
+        <lastName>Muntinho</lastName>
+        <playerNumber>45</playerNumber>
+        <preferredPosition>LeftWing</preferredPosition>
+        <status>Available</status>
+      </Model.Player>
+      <Model.Player>
+        <firstName>Adrian</firstName>
+        <lastName>Pompierescu</lastName>
+        <playerNumber>2</playerNumber>
+        <preferredPosition>Gate</preferredPosition>
+        <status>Available</status>
+      </Model.Player>
+    </listOfPlayers>
+    <date>
+      <day>14</day>
+      <month>5</month>
+      <year>2021</year>
+    </date>
+    <location>
+      <country>Romania</country>
+      <city>Buc</city>
+      <stadium>123</stadium>
+    </location>
+  </Model.Match>
+  <Model.Match>
+    <team1>Denmark</team1>
+    <team2>USA</team2>
+    <type>League</type>
+    <score>100 - 0</score>
+    <listOfPlayers/>
+    <date>
+      <day>28</day>
+      <month>5</month>
+      <year>2022</year>
+    </date>
+    <location>
+      <country>USA</country>
+      <city>New York</city>
+      <stadium>Vice Arena</stadium>
+    </location>
+  </Model.Match>
+</list>
